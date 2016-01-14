@@ -7,3 +7,4 @@ server:
         - ./data/registry:/var/lib/registry
     command:
         - /etc/docker/registry/config.yml
+    restart: always
