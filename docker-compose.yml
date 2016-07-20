@@ -5,6 +5,6 @@ server:
     volumes:
         - ./config.yml:/etc/docker/registry/config.yml:ro
         - ./data/registry:/var/lib/registry
-    command:
-        - /etc/docker/registry/config.yml
+    #command:
+    #    - /etc/docker/registry/config.yml
     restart: always
